@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите число ");
+int number = int.Parse(Console.ReadLine());
+string Day = "нет такого дня недели";
+if (number == 1) Day = "Понедельник";
+if (number == 2) Day = "Вторник";
+if (number == 3) Day = "Среда";
+if (number == 4) Day = "Четверг";
+if (number == 5) Day = "Пятница";
+if (number == 6) Day = "Суббота";
+if (number == 7) Day = "Воскресенье";
+Console.WriteLine(Day);
